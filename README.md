@@ -38,22 +38,18 @@ All of these features are toggleable mid-game, with the exception of not being a
 The menu window can be dragged around the screen to be somewhere else. The window position will be saved upon closing the game, so it'll be in the same place next time.
 
 ## Installation if BepInEx IS NOT installed
-
 1. Unpack the contents of `Bepin QoL.7z` into your KoboldKare game folder (where the .exe is).
 2. Run the game and it should work!
 
 ## Installation if BepInEx IS installed
-
 1. Ensure you have the Dlltouse folder in your KoboldKare game folder (can be found in `Bepin QoL.7z`).
 2. Put the `UwO_QoL_Mod.dll` in the plugins folder (Should be in `KoboldKare\BepInEx\plugins`).
 3. Run the game and it should work!
 
 ## How to use
-
 Press `F7` (default, can be changed) to show/hide the QoL menu. You can drag it wherever you want on the screen and it'll remember the position for next time you boot up the game.
 
 ## Configuration & Default Shortcuts
-
 Cursor Unlocker: `F3`  
 Anti-grab shortcut: `LeftAlt + V`  
 Water system shortcut: `LeftAlt + B`  
