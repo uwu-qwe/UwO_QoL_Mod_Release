@@ -36,6 +36,7 @@
 
 All of these features are toggleable mid-game, with the exception of not being able to toggle anti-grab when actively being grabbed.
 The menu window can be dragged around the screen to be somewhere else. The window position will be saved upon closing the game, so it'll be in the same place next time.
+
 ## Installation if BepInEx IS NOT installed
 
 1. Unpack the contents of `Bepin QoL.7z` into your KoboldKare game folder (where the .exe is).
@@ -50,6 +51,7 @@ The menu window can be dragged around the screen to be somewhere else. The windo
 ## How to use
 
 Press `F7` (default, can be changed) to show/hide the QoL menu. You can drag it wherever you want on the screen and it'll remember the position for next time you boot up the game.
+
 ## Configuration & Default Shortcuts
 
 Cursor Unlocker: `F3`  
