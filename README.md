@@ -8,7 +8,7 @@
 • Automatic deletion of player kobolds who have left the lobby. (Has to be actively running to keep check of player kobolds, turning it on/off will just restart it.)  
   *(Can only be turned on if you're the host)*
 
-• Anti-grab - Nobody can grab you when it's activated, but you also can't grab anyone else. (Ideal if you're afk, also has the side effect of preventing you from being spawn-stack grabbed)  
+• Anti-grab - Nobody can grab you when it's activated. (Ideal if you're afk, also has the side effect of preventing you from being spawn-stack grabbed)  
   *(Can be turned on in any lobby)*
 
 • Ragdoll-toggler - Toggle ragdolling on/off.
@@ -33,6 +33,9 @@
 • Grab Log window - You can now open a window to check who has been grabbing you! It'll show the player who grabbed you with name, ID, and the time you were grabbed.
 *(This is always on, but you can toggle whether or not to show the window.)*
 
+• Camera-based clean up tool. As host of a lobby, you can now look at objects and delete them one at a time. You can't delete players and most of the environment is not deletable.
+*(This automatically turns on when you are the host of a lobby.)*
+
 All of these features are toggleable mid-game, with the exception of not being able to toggle anti-grab when actively being grabbed.
 The menu window can be dragged around the screen to be somewhere else. The window position will be saved upon closing the game, so it'll be in the same place next time.
 
@@ -54,5 +57,9 @@ Anti-grab shortcut: `LeftAlt + V`
 Water system shortcut: `LeftAlt + B`  
 Player clean-up shortcut: `LeftAlt + N`  
 Ragdoll-toggling shortcut: `LeftAlt + R`
+
+Select Object: `Insert`  
+Deselect Object: `Home`  
+Delete Object: `Delete`
 
 These shortcuts can be configured in `\KoboldKare\BepInEx\config\UwO_QoL_Mod.cfg` after running the game once with my plugin.
