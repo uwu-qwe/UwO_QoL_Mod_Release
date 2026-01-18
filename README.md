@@ -8,7 +8,7 @@
 • Automatic deletion of player kobolds who have left the lobby. (Has to be actively running to keep check of player kobolds, turning it on/off will just restart it.)  
   *(Can only be turned on if you're the host)*
 
-• Anti-grab - Nobody can grab you when it's activated. Also has the side effect of preventing you from being spawn-stack grabbed. A seperate button is added to prevent people from using the swapping command on you if you have anti-grab turned on.
+• Anti-grab - Nobody can grab you when it's activated. Also has the side effect of preventing you from being spawn-stack grabbed. A seperate button is added to prevent people from using the swapping command on you if you have anti-grab turned on.  
   *(You're not able to toggle anti-grab when actively being grabbed.)*
 
 • Ragdoll-toggler - Toggle ragdolling on/off.
@@ -26,25 +26,25 @@
 
 • Head equipment hiding feature when playing in first person camera. This will now also hide Ember's flames in first person.
 
-• Grab Log window - You can now open a window to check who has been grabbing you! It'll show the player who grabbed you with name, ID, and the time you were grabbed.
+• Grab Log window - You can now open a window to check who has been grabbing you! It'll show the player who grabbed you with name, ID, and the time you were grabbed.  
   *(This is always on, but you can toggle whether or not to show the window.)*
 
-• Camera-based clean up tool. As host of a lobby, you can now look at objects and delete them one at a time. You can't delete players and most of the environment is not deletable.
+• Camera-based clean up tool. As host of a lobby, you can now look at objects and delete them one at a time. You can't delete players and most of the environment is not deletable.  
   *(This automatically turns on when you are the host of a lobby.)*
 
-• Event Log window - As host you can now open a window to check who has been grabbing who, who has been spawning objects and deleting them. This includes yourself in case of grabbing.
-  ⚠️ *(This feature is still a bit experimental and can cause instability or even crash, so use at your own risk.)* ⚠️
+• Event Log window - As host you can now open a window to check who has been grabbing who, who has been spawning objects and deleting them. This includes yourself in case of grabbing.  
+  ⚠️ *(This feature is still a bit experimental and can cause instability or even crash, so use at your own risk.)* ⚠️  
   *(It is togglable by the square toggles in the window and is off by default.)*
 
 • Automatic chat tag sanitizer that scrubs tags out of names of people who join/leave a lobby. It only applies to the actual join/leave message in chat.
 
 • Automatic self-grab enabler that enables self-grabbing on some maps that have it disabled.
 
-• "Goofs" menu where you can toggle ragdoll anti-gravity, use slightly larger text or smaller text when chatting, or even slow down time.
+• "Goofs" menu where you can toggle ragdoll anti-gravity, use slightly larger text or smaller text when chatting, or even slow down time.  
   ⚠️ *(These were not made with stability in mind, so use at your own risk.)* ⚠️
 
-• Ragdoll tail collision toggle is now a thing. Turning it on will prevent your tail from colliding with the game world.
-  *(This does not apply to collision with players. They will still feel your tail pushing them.)*
+• Ragdoll tail collision toggle is now a thing. Turning it on will prevent your tail from colliding with the game world.  
+  *(This does not apply to collision with players. They will still feel your tail pushing them.)*  
   *(This feature does not work with the Viper mod.)*
 
 • Drop-down menu scaler. When selecting the menu for changing kobold type (Options --> Kobold) it will now make selection list much larger and easy to scroll down.
