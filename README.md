@@ -1,5 +1,5 @@
 # UwO_QoL_Mod_Release
-![Image](https://github.com/user-attachments/assets/8e272181-fddc-4203-b641-4445eb445e42)
+![Image](https://github.com/user-attachments/assets/2f4c49fd-580f-4f4b-8cb3-e15c65b2fb7c)
 
 ## Features
 • Automatic egg/plant watering.  
@@ -8,8 +8,8 @@
 • Automatic deletion of player kobolds who have left the lobby. (Has to be actively running to keep check of player kobolds, turning it on/off will just restart it.)  
   *(Can only be turned on if you're the host)*
 
-• Anti-grab - Nobody can grab you when it's activated. (Ideal if you're afk, also has the side effect of preventing you from being spawn-stack grabbed)  
-  *(Can be turned on in any lobby)*
+• Anti-grab - Nobody can grab you when it's activated. Also has the side effect of preventing you from being spawn-stack grabbed. A seperate button is added to prevent people from using the swapping command on you if you have anti-grab turned on.
+  *(You're not able to toggle anti-grab when actively being grabbed.)*
 
 • Ragdoll-toggler - Toggle ragdolling on/off.
 
@@ -21,22 +21,36 @@
 • Dick As Inflator - Your dick will be able to inflate anyone's stomach, meaning their stomach capacity will grow as you cum in them when their stomach is full.
 
 • Dick Cum Replacer - Replace your cum with other fluids types! Yep, that's it!  
-  *(Can be turned on in a lobby where the host has cheats enabled.)*
 
 • Cursor Unlocker - Instead of using TAB to show the cursor, you can now just press F3.
-
-• ~~Gone are the days when you'd be stuck in an infinite void when joining a server that has a missing mod or mod conflict with your game... Now there's error-handling, meaning if a mod issue is raised when joining a server, you'll be booted back to the main menu with an error message containing the type of error and what mod is causing the issue.~~
-*This is now part of base game.*
 
 • Head equipment hiding feature when playing in first person camera. This will now also hide Ember's flames in first person.
 
 • Grab Log window - You can now open a window to check who has been grabbing you! It'll show the player who grabbed you with name, ID, and the time you were grabbed.
-*(This is always on, but you can toggle whether or not to show the window.)*
+  *(This is always on, but you can toggle whether or not to show the window.)*
 
 • Camera-based clean up tool. As host of a lobby, you can now look at objects and delete them one at a time. You can't delete players and most of the environment is not deletable.
-*(This automatically turns on when you are the host of a lobby.)*
+  *(This automatically turns on when you are the host of a lobby.)*
 
-All of these features are toggleable mid-game, with the exception of not being able to toggle anti-grab when actively being grabbed.
+• Event Log window - As host you can now open a window to check who has been grabbing who, who has been spawning objects and deleting them. This includes yourself in case of grabbing.
+  ⚠️ *(This feature is still a bit experimental and can cause instability or even crash, so use at your own risk.)* ⚠️
+  *(It is togglable by the square toggles in the window and is off by default.)*
+
+• Automatic chat tag sanitizer that scrubs tags out of names of people who join/leave a lobby. It only applies to the actual join/leave message in chat.
+
+• Automatic self-grab enabler that enables self-grabbing on some maps that have it disabled.
+
+• "Goofs" menu where you can toggle ragdoll anti-gravity, use slightly larger text or smaller text when chatting, or even slow down time.
+  ⚠️ *(These were not made with stability in mind, so use at your own risk.)* ⚠️
+
+• Ragdoll tail collision toggle is now a thing. Turning it on will prevent your tail from colliding with the game world.
+  *(This does not apply to collision with players. They will still feel your tail pushing them.)*
+  *(This feature does not work with the Viper mod.)*
+
+• Drop-down menu scaler. When selecting the menu for changing kobold type (Options --> Kobold) it will now make selection list much larger and easy to scroll down.
+
+• Posing break prevention! There is now an option (turned on by default) that prevents you from grabbing people (it only affects players) who are *not* posed by you (but still posed). This will help prevention breaking other people's poses or putting them into an animation station if they are near one.
+
 The menu window can be dragged around the screen to be somewhere else. The window position will be saved upon closing the game, so it'll be in the same place next time.
 
 ## Installation if BepInEx IS NOT installed
@@ -54,10 +68,11 @@ Press `F7` (default, can be changed) to show/hide the QoL menu. You can drag it 
 ## Configuration & Default Shortcuts
 Cursor Unlocker: `F3`  
 Anti-grab shortcut: `LeftAlt + V`  
-Water system shortcut: `LeftAlt + B`  
-Player clean-up shortcut: `LeftAlt + N`  
-Ragdoll-toggling shortcut: `LeftAlt + R`
+Anti-gravity ragdoll toggle shortcut: `LeftAlt + B`  
+Ragdoll toggle shortcut: `LeftAlt + R`  
+Tail collision toggle shortcut: `LeftAlt + N`
 
+*For the camera-based clean up tool:*
 Select Object: `Insert`  
 Deselect Object: `Home`  
 Delete Object: `Delete`
